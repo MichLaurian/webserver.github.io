@@ -64,11 +64,3 @@ app.get('/webhook', (req, res) => {
   }
 });
 
-
-
-
-/**
-curl -H "Content-Type: application/json" -X 
-POST "localhost:1337/webhook" -d 
-'{"object": "page", "entry": 
-[{"messaging": [{"message": "TEST_MESSAGE"}]}]}' */
